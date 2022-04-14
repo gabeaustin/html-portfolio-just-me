@@ -11,6 +11,7 @@
   --secondary-green: #05c46b;
   --text-white: #ffffff;
   --backgrounds-black: #353b48;
+  --grey: #454e56;
 }
 
 body {
@@ -65,5 +66,36 @@ body {
 }
 
 .socials-container {
-  width: 30vw;
+  /* width: 30vw; */
+  height: 50vh;
+  margin: 180px auto 0 auto;
+  display: grid;
+  align-content: space-evenly;
+  
+  outline: solid white;
+}
+
+.socials-container section i {
+  outline: solid hotpink;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: var(--grey);
+  cursor: pointer;
+  display: grid;
+  align-content: space-evenly;
+  justify-content: center;
+  box-shadow: 0 3px 15px rgb(0 0 0 / 35%);
+}
+
+.socials-container section i {
+  /* color: red;
+
+
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+  height: 100px;
+  width: 100px; */
 }
