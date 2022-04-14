@@ -38,8 +38,9 @@ body {
   z-index: -99;
 }
 
-.image-container {
-
+.image-container img {
+  width: 40vw;
+  margin: 60px;
 }
 
 .full-name {
