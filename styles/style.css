@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --primary-orange: #f05b0e;
+  --secondary-green: #157756;
+  --text-white: #ffffff;
+  --backgrounds-black: #2a2e35;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--backgrounds-black);
+  color: var(--text-white);
+}
+
+.full-name {
+  color: var(--secondary-green);
+}
