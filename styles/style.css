@@ -66,20 +66,17 @@ body {
 }
 
 .socials-container {
-  /* width: 30vw; */
   height: 50vh;
   margin: 180px auto 0 auto;
   display: grid;
   align-content: space-evenly;
-  
-  outline: solid white;
 }
 
 .socials-container section i {
-  outline: solid hotpink;
   border-radius: 50%;
   width: 70px;
   height: 70px;
+  border: solid 1px var(--grey);
   background-color: var(--grey);
   cursor: pointer;
   display: grid;
@@ -88,14 +85,7 @@ body {
   box-shadow: 0 3px 15px rgb(0 0 0 / 35%);
 }
 
-.socials-container section i {
-  /* color: red;
-
-
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-
-  height: 100px;
-  width: 100px; */
+.socials-container section:nth-child(1) {
+  outline: solid salmon;
+  margin-bottom: 100px;
 }
