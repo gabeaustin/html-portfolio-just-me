@@ -17,6 +17,29 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--backgrounds-black);
   color: var(--text-white);
+  font-size: 1.1rem;
+}
+
+.triangle-shape {
+  width: 50vw;
+  height: 100vh;
+  background-color: var(--secondary-green);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -99;
+  clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  z-index: -99;
+}
+
+.image-container {
+
 }
 
 .full-name {
