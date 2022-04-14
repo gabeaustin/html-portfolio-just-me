@@ -7,10 +7,10 @@
 }
 
 :root {
-  --primary-orange: #f05b0e;
-  --secondary-green: #157756;
+  --primary-orange: #ffad01;
+  --secondary-green: #05c46b;
   --text-white: #ffffff;
-  --backgrounds-black: #2a2e35;
+  --backgrounds-black: #353b48;
 }
 
 body {
@@ -43,6 +43,23 @@ body {
   margin: 60px;
 }
 
+.main-copy-container {
+  width: 30vw;
+  height: 50vh;
+  margin: 170px auto 40px auto;
+
+  outline: solid red;
+}
+
+.name-title-header {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
 .full-name {
   color: var(--secondary-green);
+}
+
+.socials-container {
+  width: 30vw;
 }
