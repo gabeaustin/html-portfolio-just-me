@@ -89,3 +89,60 @@ body {
   outline: solid salmon;
   margin-bottom: 100px;
 }
+
+
+
+/***** MEDIA QUERIES *****/
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  
+} */
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 768px) {}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1.35rem;
+  }
+
+  .triangle-shape {
+    display: none;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* box 1 */
+  .image-container {
+    justify-content: center;
+    display: flex;
+
+    outline: solid yellow;
+  }
+
+  .image-container img {
+    width: 60vw;
+    
+    outline: solid hotpink;
+  }
+
+  /* box 2 */
+  .main-copy-container {
+    width: 80vw;
+
+    outline: solid orange;
+  }
+
+  /* box 3 */
+  .socials-container {
+    /* height: 50vh;
+    margin: 180px auto 0 auto;
+    display: grid;
+    align-content: space-evenly; */
+    outline: solid wheat;
+  }
+}
