@@ -65,6 +65,27 @@ body {
   color: var(--secondary-green);
 }
 
+.download-resume-btn-container {
+  display: flex;
+  align-self: flex-start;
+}
+
+.download-resume-btn-container button.download-resume-btn {
+  border-radius: 30px;
+  color: inherit;
+  font-weight: 600;
+  position: relative;
+  border: 2px solid var(--secondary-green);
+  background: rgba(255, 225, 255, 0);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding: 15px 0;
+  width: 15vw;
+}
+
+
 .socials-container {
   height: 50vh;
   margin: 180px auto 0 auto;
@@ -145,13 +166,10 @@ body {
   }
 
   .download-resume-btn-container button.download-resume-btn {
-    outline: solid salmon;
-
-    border: 2px solid var(--secondary-green);
-    border-radius: 20%;
-    width: 50vw;
-    padding: 20px;
+    width: 55vw;
   }
+
+
 
   /* box 3 */
   .socials-container {
