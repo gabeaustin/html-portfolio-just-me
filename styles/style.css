@@ -144,6 +144,15 @@ body {
     line-height: 1.6;
   }
 
+  .download-resume-btn-container button.download-resume-btn {
+    outline: solid salmon;
+
+    border: 2px solid var(--secondary-green);
+    border-radius: 20%;
+    width: 50vw;
+    padding: 20px;
+  }
+
   /* box 3 */
   .socials-container {
     display: flex;
