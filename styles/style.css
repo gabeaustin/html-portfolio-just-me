@@ -96,8 +96,8 @@ body {
 }
 
 .socials-container {
-  height: 50vh;
-  margin: 180px auto 0 auto;
+  height: 75vh;
+  margin: 60px 40px 0 auto;
   display: grid;
   align-content: space-evenly;
 }
@@ -115,10 +115,23 @@ body {
   box-shadow: 0 3px 15px rgb(0 0 0 / 35%);
 }
 
-.socials-container section:nth-child(1) {
-  outline: solid salmon;
+.socials-container .dark-light-btn {
   margin-bottom: 100px;
 }
+
+.dark-light-btn {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: solid 1px var(--grey);
+  background-color: var(--grey);
+  cursor: pointer;
+  display: grid;
+  align-content: space-evenly;
+  justify-content: center;
+  box-shadow: 0 3px 15px rgb(0 0 0 / 35%);
+}
+
 
 
 
