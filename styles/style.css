@@ -70,7 +70,7 @@ body {
   align-self: flex-start;
 }
 
-.download-resume-btn {
+#download-resume-btn {
   border-radius: 30px;
   color: inherit;
   font-weight: 600;
@@ -82,17 +82,26 @@ body {
   overflow: hidden;
 }
 
-.download-resume-btn .download-resume-btn-text {
+#download-resume-btn .download-resume-btn-text {
   padding: 0 32px;
 }
 
-.download-resume-btn .download-resume-btn-icon {
+#download-resume-btn .download-resume-btn-icon {
   background-color: var(--secondary-green);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 30px;
   padding: 16px;
+}
+
+#download-resume-btn {
+  /* .download-resume-btn-icon:hover { */
+  background-color: var(--primary-orange);
+}
+
+.download-resume-btn:hover {
+  width: 100vw;;
 }
 
 .socials-container {
