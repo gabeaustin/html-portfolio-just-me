@@ -101,7 +101,6 @@ body {
 
 .download-resume-btn:hover {
   width: 100vw;
-  ;
 }
 
 .socials-container {
@@ -144,9 +143,16 @@ body {
   align-content: space-evenly;
   justify-content: center;
   box-shadow: 0 3px 15px rgb(0 0 0 / 35%);
+  cursor: pointer;
 }
 
-
+.socials-container a:link,
+.socials-container a:visited,
+.socials-container a:hover,
+.socials-container a:active {
+  color: var(--text-white);
+  cursor: pointer;
+}
 
 
 /***** MEDIA QUERIES *****/
