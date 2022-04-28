@@ -22,21 +22,21 @@
     />
   </head>
   <body>
-    <main class="main-container">
-      <section class="image-container">
-        <section class="triangle-shape"></section>
+    <div class="main-container">
+      <div class="image-container">
+        <div class="triangle-shape"></div>
         <img
           src="images/male-dreads-1280x1920.jpeg"
           alt="Male with dreadlocks talking on phone while looking through notebook"
         />
-      </section>
-      <section class="main-copy-container">
-        <section class="name-title-header">
+      </div>
+      <div class="main-copy-container">
+        <div class="name-title-header">
           <p>
             Hi, I'm <span class="full-name">Gabriel Austin</span>. A Web
             Developer.
           </p>
-        </section>
+        </div>
         <p class="name-title-copy">
           I'm a creative Front-End Developer offering 2+ years of experience in
           designing and developing responsive websites. I'm aspiring to combine
@@ -44,27 +44,55 @@
           Front-End Developer. Lorem ipsum dolor sit amet consectetur
           adipisicing elit.
         </p>
-        <section class="download-resume-btn-container">
-          <a id="download-resume-btn" href="#" onmouseover="fillBackground()">
-            <span class="download-resume-btn-text">Download Resume</span> 
-            <span class="download-resume-btn-icon">
-              <i class="fa-solid fa-download fa-2x"></i>
-            </span>
-          </a>
-        </button>
-      </section>
-    </section>
-    <section class="socials-container">
+        <div class="download-resume-btn-container">
+          <button>
+            <a id="download-resume-btn" href="#" onmouseover="fillBackground()">
+              <span class="download-resume-btn-text">Download Resume</span>
+              <span class="download-resume-btn-icon">
+                <i class="fa-solid fa-download fa-2x"></i>
+              </span>
+            </a>
+          </button>
+        </div>
+      </div>
+      <div class="socials-container">
         <a class="dark-light-btn">
-          <span class="dark-light-icon"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+          <span class="dark-light-icon">
+            <i class="fa-solid fa-circle-half-stroke fa-lg"></i>
+          </span>
         </a>
-        <section id="home-icon"><i class="fas fa-house-chimney fa-lg"></i></section>
-        <section id="about-icon"><i class="fas fa-user fa-lg"></i></section>
-        <section id="portfolio-icon"><i class="fas fa-briefcase fa-lg"></i></section>
-        <section id="blogs-icon"><i class="fas fa-newspaper fa-lg"></i></section>
-        <section id="contact-icon"><i class="fas fa-envelope fa-lg"></i></section>
-      </section>
-    </main>
+
+        <a href="/" class="home-icon-btn">
+          <span class="home-icon">
+            <i class="fas fa-house-chimney fa-lg"></i>
+          </span>
+        </a>
+
+        <a href="/about.html" class="about-icon-btn">
+          <span class="about-icon">
+            <i class="fas fa-user fa-lg"></i>
+          </span>
+        </a>
+
+        <a href="/portfolio.html" class="portfolio-icon-btn">
+          <span class="portfolio-icon">
+            <i class="fas fa-briefcase fa-lg"></i>
+          </span>
+        </a>
+        
+        <a href="/blogs.html" class="blogs-icon-btn">
+          <span class="blogs-icon">
+            <i class="fas fa-newspaper fa-lg"></i>
+          </span>
+        </a>
+        
+        <a href="/contact.html" class="contact-icon-btn">
+          <span class="contact-icon">
+            <i class="fas fa-envelope fa-lg"></i>
+          </span>
+        </a>
+      </div>
+    </div>
 
     <script src="./js/source.js"></script>
   </body>

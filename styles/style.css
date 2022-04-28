@@ -96,12 +96,12 @@ body {
 }
 
 #download-resume-btn {
-  /* .download-resume-btn-icon:hover { */
   background-color: var(--primary-orange);
 }
 
 .download-resume-btn:hover {
-  width: 100vw;;
+  width: 100vw;
+  ;
 }
 
 .socials-container {
@@ -111,7 +111,7 @@ body {
   align-content: space-evenly;
 }
 
-.socials-container section i {
+.socials-container div i {
   border-radius: 50%;
   width: 70px;
   height: 70px;
@@ -128,7 +128,12 @@ body {
   margin-bottom: 100px;
 }
 
-.dark-light-btn {
+.dark-light-btn,
+.home-icon-btn,
+.about-icon-btn,
+.portfolio-icon-btn,
+.blogs-icon-btn,
+.contact-icon-btn {
   border-radius: 50%;
   width: 70px;
   height: 70px;
@@ -207,7 +212,7 @@ body {
     background-color: var(--grey);
   }
 
-  .socials-container section i {
+  .socials-container div i {
     width: 50px;
     height: 50px;
     border: solid 1px var(--grey);
@@ -217,7 +222,7 @@ body {
     align-items: center;
   }
 
-  .socials-container section:nth-child(1) {
+  .socials-container div:nth-child(1) {
     outline: none;
   }
 
