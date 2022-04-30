@@ -211,6 +211,10 @@ img {
   text-transform: uppercase;
 }
 
+/*** Contact Page ***/
+.portfolio-tab {
+  text-indent: 3em;
+}
 
 /***** MEDIA QUERIES *****/
 /* Medium devices (landscape tablets, 768px and up) */
