@@ -69,9 +69,8 @@ p {
 }
 
 img {
-  /* height: 300px; */
-  /* width: 300px; */
-  border-radius: 5px;
+  width: 30vw;
+  border-radius: 15px;
 }
 
 .triangle-shape {
