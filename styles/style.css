@@ -7,24 +7,77 @@
 }
 
 :root {
-  --primary-orange: #ffad01;
-  --secondary-green: #05c46b;
-  --text-white: #ffffff;
+  --orange: #ffad01;
+  --green: #05c46b;
+  --white: #ffffff;
   --backgrounds-black: #353b48;
   --grey: #454e56;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  /* 400,500,600,700,800 */
   background: var(--backgrounds-black);
-  color: var(--text-white);
+  color: var(--white);
   font-size: 1.1rem;
+}
+
+/*
+
+h1 - 2.125rem --> 34px
+h2 - 1.875rem --> 30px
+h3 - 1.5rem   --> 24px
+h4 - 1.25rem  --> 20px
+h5 - 1.125rem --> 18px
+h6 - 1rem     --> 16px
+
+*/
+
+.cta-color-dark {
+  color: var(--green);
+}
+
+.cta-color-lite {
+  color: var(--green);
+}
+
+/* dark side code */
+h1 {
+  color: var(--white);
+  font-size: 2.125rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  /* height: 300px; */
+  /* width: 300px; */
+  border-radius: 5px;
 }
 
 .triangle-shape {
   width: 50vw;
   height: 100vh;
-  background-color: var(--secondary-green);
+  background-color: var(--green);
   position: absolute;
   left: 0;
   top: 0;
@@ -62,7 +115,7 @@ body {
 }
 
 .full-name {
-  color: var(--secondary-green);
+  color: var(--green);
 }
 
 .download-resume-btn-container {
@@ -75,7 +128,7 @@ body {
   color: inherit;
   font-weight: 600;
   position: relative;
-  border: 1px solid var(--secondary-green);
+  border: 1px solid var(--green);
   display: flex;
   align-self: flex-start;
   align-items: center;
@@ -87,7 +140,7 @@ body {
 }
 
 #download-resume-btn .download-resume-btn-icon {
-  background-color: var(--secondary-green);
+  background-color: var(--green);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,7 +149,7 @@ body {
 }
 
 #download-resume-btn {
-  background-color: var(--primary-orange);
+  background-color: var(--orange);
 }
 
 .download-resume-btn:hover {
@@ -150,8 +203,13 @@ body {
 .socials-container a:visited,
 .socials-container a:hover,
 .socials-container a:active {
-  color: var(--text-white);
+  color: var(--white);
   cursor: pointer;
+}
+
+/*** About Page ***/
+.stats-about-me.right-div p {
+  text-transform: uppercase;
 }
 
 
