@@ -211,6 +211,37 @@ img {
   text-transform: uppercase;
 }
 
+.about-me-row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.stats-about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.stats-about-me div {
+  outline: solid yellow;
+  text-align: center;
+}
+
+.about-me-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-me-row-2>progress {
+  background-color: #fff;
+  width: 20vw;
+  height: 1vh;
+}
+
+.about-me-row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 /*** Contact Page ***/
 .portfolio-tab {
   text-indent: 3em;
