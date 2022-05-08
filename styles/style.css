@@ -258,16 +258,6 @@ img {
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
-
-  body,
-  html {
-    height: 100%;
-  }
-
-  body {
-    font-size: 1.5rem;
-  }
-
   .triangle-shape {
     display: none;
   }
@@ -285,7 +275,7 @@ img {
   }
 
   .image-container img {
-    width: 60vw;
+    width: 40vw;
   }
 
   /* box 2 */
@@ -295,9 +285,23 @@ img {
     margin: 5px auto 0 auto;
   }
 
-  .main-copy-container .name-title-copy {
-    line-height: 1.6;
+  .name-title-header {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 45px;
   }
+
+  .main-copy-container .name-title-copy {
+    line-height: 1.8;
+    font-size: 1.25rem;
+    text-align: left;
+  }
+
+  .download-resume-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
 
   /* box 3 */
   .socials-container {
