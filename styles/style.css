@@ -285,10 +285,9 @@ img {
     margin: 5px auto 0 auto;
   }
 
-  .name-title-header {
-    font-size: 3rem;
-    font-weight: 600;
-    line-height: 45px;
+  .name-title-header p {
+    font-size: 1.875rem;
+    text-align: center;
   }
 
   .main-copy-container .name-title-copy {
@@ -302,7 +301,6 @@ img {
     justify-content: center;
   }
 
-  /****** START HERE ******/
   /* box 3 */
   .socials-container {
     display: flex;
