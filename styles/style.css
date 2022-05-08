@@ -254,7 +254,162 @@ img {
 } */
 
 /* Tablets */
-@media only screen and (min-width: 601px) and (max-width: 768px) {}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .triangle-shape {
+    display: none;
+  }
+
+  /****** START HERE ******/
+  /*** CODE COPIED FROM DESKTOP VIEW ***/
+  img {
+    border-radius: 5px;
+
+    outline: solid hotpink;
+  }
+
+  /* .triangle-shape {
+    width: 50vw;
+    height: 100vh;
+    background-color: var(--green);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -99;
+    clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+  } */
+
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* move the socials to the bottom of the pg */
+    position: relative;
+    z-index: -99;
+  }
+
+  .image-container {
+    width: 45vw;
+    height: 50vh;
+    margin-top: 40px;
+
+    outline: solid yellow;
+  }
+
+  .main-copy-container {
+    /* width: 25vw; */
+    width: 45vw;
+    height: 50vh;
+
+    outline: solid red;
+    /* margin: 110px auto 40px auto; */
+  }
+
+  .name-title-header {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 45px;
+  }
+
+  .name-title-copy {
+    margin: 30px 0;
+    line-height: 30px;
+  }
+
+  .full-name {
+    color: var(--green);
+  }
+
+  .download-resume-btn-container {
+    display: flex;
+    align-self: flex-start;
+  }
+
+  #download-resume-btn {
+    border-radius: 30px;
+    color: inherit;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid var(--green);
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  #download-resume-btn .download-resume-btn-text {
+    padding: 0 32px;
+  }
+
+  #download-resume-btn .download-resume-btn-icon {
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 16px;
+  }
+
+  #download-resume-btn {
+    background-color: var(--orange);
+  }
+
+  .download-resume-btn:hover {
+    width: 100vw;
+  }
+
+  .socials-container {
+    height: 75vh;
+    margin: 60px 40px 0 auto;
+    display: grid;
+    align-content: space-evenly;
+  }
+
+  .socials-container div i {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: solid 1px var(--grey);
+    background-color: var(--grey);
+    cursor: pointer;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: center;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 35%);
+  }
+
+  .socials-container .dark-light-btn {
+    margin-bottom: 100px;
+  }
+
+  .dark-light-btn,
+  .home-icon-btn,
+  .about-icon-btn,
+  .portfolio-icon-btn,
+  .blogs-icon-btn,
+  .contact-icon-btn {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: solid 1px var(--grey);
+    background-color: var(--grey);
+    cursor: pointer;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: center;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 35%);
+    cursor: pointer;
+  }
+
+  .socials-container a:link,
+  .socials-container a:visited,
+  .socials-container a:hover,
+  .socials-container a:active {
+    color: var(--white);
+    cursor: pointer;
+  }
+
+  /*** end -> CODE COPIED FROM DESKTOP VIEW ***/
+
+}
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
@@ -276,6 +431,7 @@ img {
 
   .image-container img {
     width: 40vw;
+    border-radius: 5px;
   }
 
   /* box 2 */
